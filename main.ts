@@ -24,9 +24,6 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
         . . . . . . . . . . . . . . . . 
         `, mySprite2, 0, 50)
 })
-sprites.onDestroyed(SpriteKind.Player, function (sprite) {
-    sprites.destroy(mySprite2)
-})
 let projectile: Sprite = null
 let projectile2: Sprite = null
 let mySprite2: Sprite = null
